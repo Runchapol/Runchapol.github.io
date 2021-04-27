@@ -292,6 +292,21 @@
 		  	document.getElementById("eff04").style.transform = "scale(1)";
 		    document.getElementById("eff04").style.opacity = "1";
 		  }
+		  if (document.documentElement.scrollTop < 900) {
+		  	document.getElementById("m1").style.color = "#48d501";
+		  }
+		  else if(document.documentElement.scrollTop >= 900 && document.documentElement.scrollTop < 1900){
+		  	document.getElementById("m2").style.color = "#48d501";
+		  }
+		  else if(document.documentElement.scrollTop >= 1900 && document.documentElement.scrollTop < 2900){
+		  	document.getElementById("m3").style.color = "#48d501";
+		  }
+		  else if(document.documentElement.scrollTop >= 2900 && document.documentElement.scrollTop < 4600){
+		  	document.getElementById("m4").style.color = "#48d501";
+		  }
+		  else{
+		  	document.getElementById("m5").style.color = "#48d501";
+		  }
 		}
 		for (var i = 0; i < 6; i++) {
 			document.getElementById("m"+[i]).addEventListener("mouseover", function( event ) {
@@ -299,9 +314,12 @@
 			}, false);
 
 			document.getElementById("m"+[i]).addEventListener("mouseout", function( event ) {
-			  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+			  	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
 			  		this.style.color = "black";
-				} else {this.style.color = "white";}
+				} 
+				else {
+					this.style.color = "white";
+				}
 			}, false);
 		}
 
