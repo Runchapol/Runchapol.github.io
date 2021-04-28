@@ -1,0 +1,17 @@
+.p1{
+    font-family: 'Designil Font', 'Helvetica', sans-serif;
+    color: #104E8B;
+}
+.p2{
+    font-family: 'Designil Font', 'Helvetica', sans-serif;
+    color: #00688B;
+    font-size:25px;
+}
+div{
+	margin-left: auto;
+    margin-right: auto;
+    width: 28em;
+}
+img{
+	border: 5px solid #00CED1;
+}

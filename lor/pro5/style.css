@@ -1,0 +1,131 @@
+body {
+    background-color: white;
+    font-family: "Pridi", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topic {
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    margin: 1vh 1em 1em 1vh;
+}
+
+h1 {
+    text-align: center;
+    margin-block-start: -40px;
+    margin-block-end: -40px;
+    font-weight: 100;
+}
+
+h3.text1{
+    text-align: center;
+    border: 5px solid black;
+    margin: 8vh 140vh 0vh -15vh;  
+}
+
+h3.text2{
+    text-align: center;
+    border: 5px solid black;
+    margin: 1vh 120vh 0vh -15vh;  
+}
+
+h3.text3{
+    text-align: center;
+    border: 5px solid black;
+    margin: 8vh 140vh 0vh -15vh;  
+}
+
+.textbox {
+    position: relative;
+    margin: 5vh 10vh 0vh 20vh;
+    padding: 0px;
+    text-align: center;
+    border: 10px solid white;
+}
+
+.textbox:after {
+    position: absolute;
+}
+
+.text-profile {
+    font-size: 130px;
+}
+
+.Uni {
+    margin-left: 100px;
+}
+
+.Uni2 {
+    margin-left: 130px;
+}
+
+h2 {
+    font-weight: 100;
+    margin: 0;
+}
+
+.name {
+    font-size: 34px;
+}
+.cover {
+    display: flex;
+}
+
+.card {
+    width: auto;
+    height: auto;
+}
+
+.image img {
+    width: 45vh;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20vh;
+    margin-left: 15vw;
+}
+
+.backgroundimg {
+    z-index: -1000;
+    position: absolute;
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 50vh;
+}
+
+.content-aboutme {
+    font-size: 30px;
+    padding-left: 15em;
+  }
+
+.content-skill {
+    font-size: 30px;
+    padding-left: 15em;
+    padding-top: 1em;
+}
+
+.content-hobbit {
+    font-size: 30px;
+    padding-left: 15em;
+    padding-top: 1em;
+}
+
+.soid{
+    border: 1px black;
+    border-bottom: dotted;
+    margin-left: 25em;
+    margin-right: 40em;
+    margin-top: 3em
+}
+
+.footer {
+    padding-top: 30px
+}
+
+.text-footer {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(56, 56, 56);
+}

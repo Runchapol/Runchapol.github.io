@@ -1,0 +1,31 @@
+.info{
+    font-family: 'Itim', cursive;
+    text-align:center;
+    color: #009ACD;
+    font-size:25px;
+}
+
+.bor{
+    border: 5px solid #43CD80;
+    padding: 20px;
+}
+
+.im{
+    border: 5px solid #009ACD;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+body{
+    background-color:#FFB5C5;
+}
+
+#txt{
+    font-family: 'Itim', cursive;
+    color: #009ACD;
+    font-size:25px;
+    margin-left: auto;
+    margin-right: auto;
+    width:25em;
+}

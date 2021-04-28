@@ -1,0 +1,16 @@
+
+.fonts{
+    font-family: cursive;
+    text-align:left;
+    font-size:22px;
+}
+.top{
+    font-family: cursive;
+    font-size:20px;
+}
+.pic{
+    border: 5px solid #ff9999;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
